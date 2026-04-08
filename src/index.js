@@ -13,7 +13,7 @@ connectDB().then(()=>{
     app.listen(process.env.PORT || 8000,()=>{
              console.log(`App is listening on PORT ${process.env.PORT}`)
              
-console.log("Index.js is running")
+              console.log("Index.js is running")
          })
      app.on("error",(error)=>{
             console.log("error :",error)
